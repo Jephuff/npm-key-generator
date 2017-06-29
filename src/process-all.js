@@ -18,6 +18,5 @@ module.exports = function processAll(stream) {
 			return '\n' + data.key;
 		});
 
-	console.log(settings.keyOutput);
 	RxNode.writeToStream(subscriber, fs.createWriteStream(settings.keyOutput));
 }

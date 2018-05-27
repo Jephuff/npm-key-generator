@@ -2,5 +2,8 @@
   "dependencies": {
     "JSONStream": "^1.3.1",
     "rx-node": "^1.0.2"
+  },
+  "scripts": {
+    "generate": "./generate.sh"
   }
 }
